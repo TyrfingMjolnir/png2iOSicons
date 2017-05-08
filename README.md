@@ -1,16 +1,26 @@
 # png2iOSicons
 converts one PNG to several PNGs for iOS icons using ImageMagick
 
+#Pre-requisit
+
+macOS
 ```sh
 brew install imagemagick
 ```
 
+debian-based linux
 ```sh
 apt-get install imagemagick
 ```
 
+arch-based linux
 ```sh
 pacman -S imagemagick
+```
+
+illumOS/SmartOS
+```sh
+pkgin in imagemagick
 ```
 
 # Use
