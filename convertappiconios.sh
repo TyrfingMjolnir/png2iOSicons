@@ -4,7 +4,7 @@ echo ${1%.*}
 
 /bin/mkdir ${1%.*}
 
-### For illumOS / SmartOS please use /opt/local/bin below as pr vim :8,14s/usr/opt/
+### For illumOS / SmartOS please use /opt/local/bin/convert below as pr vim :8,14s/usr/opt/
 /usr/local/bin/convert $1 -resize '180x180' ${1%.*}/app_180x180.png
 /usr/local/bin/convert $1 -resize '120x120' ${1%.*}/app_120x120.png
 /usr/local/bin/convert $1 -resize   '87x87' ${1%.*}/app_087x087.png
